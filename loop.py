@@ -9,13 +9,6 @@ while is_bool:
     if x > 5:
         is_bool = False;
 #print(f'x = {x}')
-'''
-
-while x < 10:
-    print("Abishan")
-    x+=1
-    
-is_bool = True;
 
 while is_bool:
     print("ABishan")
@@ -23,3 +16,9 @@ while is_bool:
     if x > 10:
         is_bool = False;
 #print(f'x = {x}')
+'''
+
+while x < 10:
+    print("Abishan")
+    x+=1
+    
