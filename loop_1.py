@@ -1,4 +1,3 @@
-'''
 x = 1
 while x < 10:
     print(x,end = '')
@@ -96,4 +95,4 @@ while j <= 5:
     else:
          print(j,end = '')
     j+=1
-'''
+
