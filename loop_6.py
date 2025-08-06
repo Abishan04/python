@@ -5,4 +5,3 @@ while j <= 5:
     else:
          print(j,end = '')
     j+=1
-
