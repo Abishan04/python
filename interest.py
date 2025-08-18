@@ -16,5 +16,5 @@ def calcInterest(amount, time):
     
 amount = float(input("Enter amount: "))
 time = int(input("Enter duration in months: "))
-result = calInterest(amount, time)
+result = calcInterest(amount, time)
 print(f"Interest for Rs.{amount:.2f} over {time} months is Rs.{result:.2f}")
