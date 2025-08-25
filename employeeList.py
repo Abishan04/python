@@ -1,12 +1,14 @@
-
-salaries = [10000, 23495, 244403]
+salaries = [50000, 52000, 48000, 60000, 75000, 82000, 91000, 120000, 130000, 150000, 170000, 200000]
+months = ["January","February","March","April","May","June","July","August","September","October","November","December" ]
 total = 0
 totaltax = 0
+
+print(f"{'Month':^10} {'Salary':>10} {'Tax':>10} {'After Tax':>15}")
 
 for salary in salaries:
     total += salary
 
-    if salary < 50000:
+    if 0 < salary < 50000:
         tax = salary * 0.03
     elif salary < 100000:
         tax = salary * 0.05
@@ -18,12 +20,10 @@ for salary in salaries:
     totaltax += tax
     net_salary = salary - tax
 
-    print(f"Salary: {salary:.2f}, Tax: {tax:.2f}, After Tax: {net_salary:.2f}")
+    print(f"{months[salaries.index(salary)]:^10}{salary:10.2f} {tax:10.2f} {net_salary:15.2f}")
 
-print("\n--- Summary ---")
+# Print summary
+print("\n --- Summary ---")
 print(f"Total Salary: {total:.2f}")
 print(f"Total Tax: {totaltax:.2f}")
 print(f"Net Total: {total - totaltax:.2f}")
-
-
-
