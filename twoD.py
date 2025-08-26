@@ -15,10 +15,10 @@ while i < 3:
         j+=1
     i+=1
 
-5 students in 1 school
-have 3 subjects in all
-output
-student name maths physics chemsi total avg result
+# 5 students in 1 school
+# have 3 subjects in all
+# output
+# student name maths physics chemsi total avg result
 
-results a,b,c
-datas nested array
+# results a,b,c
+# datas nested array
