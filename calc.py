@@ -9,7 +9,6 @@ header = ["Name", "Maths", "Physics", "Chemistry", "Total", "Avg", "Result"]
 
 print(f"{header[0]:<10}{header[1]:>8}{header[2]:>8}{header[3]:>10}{header[4]:>8}{header[5]:>8}{header[6]:>10}")
 
-
 for student in students:
     name = student[0]
     marks = student[1:]

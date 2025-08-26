@@ -6,7 +6,7 @@ students = [
     ["Pran", 82, 78, 80]
 ]
 subjects = ["Maths", "Physics", "Chemistry",]
-print(f"{'Name':<10}{'Maths':>8}{'Physics':>8}{'Chemistry':>10}{'Total':>8}{'Avg':>8}{'Result':>8}")
+print(f"{'Name':<10}{subjects[0]:>8}{subjects[1]:>8}{subjects[2]:>10}{'Total':>8}{'Avg':>8}{'Result':>8}")
 
 i = 0
 while i < len(students):
