@@ -30,7 +30,7 @@ d.popitem()#remove last item
 print(d)
 
 
-
+'''
 key = d.keys()
 print(key)
 value = d.values()
@@ -39,6 +39,7 @@ key = d.keys()
 print(key)
 items = d.items()
 print(items)
+'''
 
 for key in d.keys():
     print(key,d[key])
