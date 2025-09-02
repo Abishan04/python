@@ -13,7 +13,7 @@ d = dict(data)
 print(d)
 print(d["name"])
 
-print(d.get("city","jaffna"))
+print(d.stget("city","jaffna"))
 d["Age"] = 20
 d.update({'city':'jaffna'})
 print(d)
@@ -30,7 +30,6 @@ d.popitem()#remove last item
 print(d)
 
 
-'''
 key = d.keys()
 print(key)
 value = d.values()
@@ -39,7 +38,6 @@ key = d.keys()
 print(key)
 items = d.items()
 print(items)
-'''
 
 for key in d.keys():
     print(key,d[key])
